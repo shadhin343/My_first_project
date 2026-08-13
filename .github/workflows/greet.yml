@@ -1,0 +1,10 @@
+name: Greet on Push
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print welcome message
+        run: echo "Hello Labbono! Your code was pushed successfully 🎉"
